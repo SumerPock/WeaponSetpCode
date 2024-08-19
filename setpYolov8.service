@@ -1,0 +1,10 @@
+[Unit]
+Description=Run demo script at startup
+
+[Service]
+Type=simple
+ExecStart=/home/firefly/setup/rundemo.sh
+
+[Install]
+WantedBy=multi-user.target
+
